@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact - FGO</title>
+  <meta charset="UTF-8">
+  <title>Contact | FGO</title>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="maze.html">The Maze</a>
-    <a href="writings.html">Writings</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <h1>Contact FGO</h1>
+  <p>Reach out with thoughts, reflections, or support.</p>
 
-  <div class="container">
-    <h1>Contact</h1>
-    <p>Want to get in touch, share ideas, or collaborate? Email: <a href="mailto:your@email.com">your@email.com</a></p>
-    <p>You can also embed forms here in the future using platforms like Google Forms, Jotform, or Paystack for donations and signups.</p>
-  </div>
+  <form action="https://formspree.io/f/your_form_id" method="POST">
+    <label>Email: <input type="email" name="email" required></label><br><br>
+    <label>Message:<br><textarea name="message" required></textarea></label><br><br>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p><a href="index.html">← Back to Home</a></p>
 </body>
 </html>
